@@ -60,6 +60,10 @@ nav a:hover{
     margin-top: 1em;
     margin-left: 20em;
     margin-right: 10em;
+    border-style: solid;
+    border-width: 10px;
+    border-color: rgb(123, 123, 129);
+    border-radius: 16px;
 }
 .mediaheader{
     font-size: x-large;
@@ -146,6 +150,7 @@ p a {
     margin-top: 1em;
     margin-left: 20em;
     margin-right: 10em;
+    
 } 
 .divteamtemp{
     

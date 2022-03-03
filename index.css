@@ -241,9 +241,10 @@ p a {
 }
 /* index table css*/
 .ptableheaderteams{
-    padding-left: 15px;
+    padding-left: 0px;
     font-family: Arial, Helvetica, sans-serif;
     color: white;
+    text-align: center;
 }
 .pteamlogostable{
     font-family: arial;
@@ -255,8 +256,9 @@ p a {
     border-color: black;
 }
 .ptablep{
-    padding-left: 15px;
+    padding-left: 0px;
     color: lightgrey;
+    text-align: center;
 }
 .divtablepoolplay{
     background-color: #1157b9;

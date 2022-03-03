@@ -232,6 +232,14 @@ p a {
     padding-left: 24em;
     border-radius: 25px;
 }
+.tablepool{
+    height: 300px;
+    width: 400px;
+    border-style: solid; 
+    border: 2px;
+    border-color: black;
+    
+}
 
 
 /* Footer Css*/

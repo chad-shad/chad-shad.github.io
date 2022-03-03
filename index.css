@@ -114,6 +114,7 @@ nav a:hover{
 .h2about{
     color: black;
     font-size: 3em;
+    font-family: Arial, Helvetica, sans-serif;
     padding-left: 1em;
     padding-top: 1em;
 }
@@ -134,6 +135,7 @@ nav a:hover{
     font-size: 28px;
     color: lightblue;
     text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
 
 }
 p a {

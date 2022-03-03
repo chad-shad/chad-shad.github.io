@@ -208,6 +208,32 @@ p a {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     padding-top: 3em;
 }
+/* index table css*/
+.ptableheaderteams{
+    padding-left: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+.pteamlogostable{
+    font-family: arial;
+    color: white;
+    
+}
+.tableheader{
+    background-color: rgb(36, 34, 34);
+    border-color: black;
+}
+.ptablep{
+    padding-left: 15px;
+    color: lightgrey;
+}
+.divtablepoolplay{
+    background-color: #1157b9;
+    padding-left: 24em;
+    border-radius: 25px;
+    
+    
+}
 
 
 /* Footer Css*/

@@ -122,12 +122,12 @@ nav a:hover{
     color: cornflowerblue;
     font-size: 28px;
     text-align: center;
-    font-family: Arial, Helvetica, sans-serif;
+    font: sans-serif;
 }
 .prules{
     text-align: left;
     font-size: 28px;
-    font-family: Arial, Helvetica, sans-serif;
+    font: sans-serif;
     padding-left: 1em;
 }
 .asignup{

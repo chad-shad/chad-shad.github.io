@@ -237,7 +237,7 @@ p a {
     color: black;
     font-size: xx-large;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    padding-top: 3em;
+    padding-top: 15px;
 }
 /* index table css*/
 .ptableheaderteams{
@@ -271,6 +271,44 @@ p a {
     border-style: solid; 
     border: 2px;
     border-color: black;
+}
+/* Grid Match page*/
+.divmatchsol{
+    width: 26em;
+    height: 5em;
+    background-color: rgb(54, 50, 50);
+    margin-top: 3em;
+    margin-left: 135px;
+}
+.pmatchvs{
+    font-family: sans-serif;
+    color: white;
+    font-size: 12px;
+    text-align: center;
+}
+.tablematchtemp{
+    margin-left: 26.5em;
+    border-style: solid;
+    border-color: black;
+    border-collapse: collapse;
+}
+.theadmatch{
+    background-color: rgb(56, 97, 172);
+    border-color: black;
+    border-collapse: collapse;
+    
+}
+.buttonmatch{
+    background-color: black;
+    color: white;
+    max-height: 20px;
+    width: 175px;
+}
+.buttonmatch2{
+    background-color: black;
+    color: white;
+    max-height: 20px;
+    width: 170px;
 }
 
 

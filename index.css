@@ -565,11 +565,35 @@ p a {
     border-width: 10px;
     margin-left: 26em;
 }
+/*player of the week*/
+.divplayeroftheweek{
+    border-style:solid;
+    border-width: 5px;
+    height: 20em;
+    width: 15em;
+    float: left;
+    margin-top: 1em;
+    margin-left: 2em;
+    border-radius: 16px;
+    background-color: rgba(255, 255, 255, 0.788);
+}
+.playeroftheweektitle{
+    font-size: larger;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
 /* Footer Css*/
 .footstyle{
     text-align: center;
     color: white;
 }
+
+
+
+
+
+
 
 
 

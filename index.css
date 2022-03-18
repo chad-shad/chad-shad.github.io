@@ -554,6 +554,17 @@ p a {
     text-decoration: none;
     color: white;
 }
+.divcalckd{
+    background-color: white;
+    width: 60.7em;
+    height: 35em;
+    margin-top: 1em;
+    border-style: solid;
+    border-color: #3f4e64;
+    border-radius: 40px;
+    border-width: 10px;
+    margin-left: 26em;
+}
 /* Footer Css*/
 .footstyle{
     text-align: center;

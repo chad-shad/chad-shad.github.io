@@ -1293,6 +1293,24 @@ p a {
        width: 65em;
    }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 @media screen /*laptop*/
   and (min-device-width: 1200px) 
   and (max-device-width: 1600px) 
@@ -1316,7 +1334,7 @@ p a {
          border-style: solid;
           border-width: 5px;
            border-color: #1157b9;
-            width: 98%; height: 7em;
+            width: 97em; height: 7em;
              background-color: rgb(18, 92, 202);
              font: arial;
        position: sticky;
@@ -1358,7 +1376,7 @@ p a {
        height: 100em;
        background: linear-gradient(white, white );
        margin-top: 1em;
-       margin-left: 20em;
+       margin-left: 14.5em;
        margin-right: 10em;
        border-style: solid;
        border-width: 10px;
@@ -1869,11 +1887,11 @@ p a {
    .divplayeroftheweek{
        border-style:solid;
        border-width: 5px;
-       height: 37em;
-       width: 15em;
+       height: 20em;
+       width: 12.5em;
        float: left;
        margin-top: 1em;
-       margin-left: 2em;
+       margin-left: 0.3em;
        border-radius: 16px;
        background-color: rgba(255, 255, 255, 0.788);
    }
@@ -1881,6 +1899,7 @@ p a {
        font-size: larger;
        font-family: Arial, Helvetica, sans-serif;
        text-align: center;
+       
    }
    .divplayerofweekimg{
        background-size: cover;
@@ -1888,7 +1907,7 @@ p a {
        border-width: 2px;
        width: 9em;
        height: 9em;
-       margin-left: 2.78em;
+       margin-left: 1.68em;
        border-radius: 120px;
        
    }
@@ -1900,7 +1919,7 @@ p a {
        color: #1157b9;
        font-size: 25px;
        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-       margin-left: 3.3em;
+       margin-left: 2.55em;
        
    }
    .playerofweekkdtitle{
@@ -1924,6 +1943,9 @@ p a {
    .footstyle{
        text-align: center;
        color: white;
+   }
+   #footer{
+       width: 100em;
    }
 }
 

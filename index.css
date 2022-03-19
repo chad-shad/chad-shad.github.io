@@ -52,6 +52,7 @@ nav a{
 nav a:hover{
     color: grey;
 }
+
 /* Body CSS & home css*/
 .divstylebody{
     width: 75em;
@@ -569,7 +570,7 @@ p a {
 .divplayeroftheweek{
     border-style:solid;
     border-width: 5px;
-    height: 20em;
+    height: 37em;
     width: 15em;
     float: left;
     margin-top: 1em;
@@ -590,7 +591,10 @@ p a {
     height: 9em;
     margin-left: 2.78em;
     border-radius: 120px;
+    
 }
+
+
 .playerofweekname{
     text-align: center;
     text-decoration: none;
@@ -606,6 +610,15 @@ p a {
     color: black;
     font-family: Arial, Helvetica, sans-serif;
 }
+/*ranking table*/
+.divplayeroftheweek thead{
+    max-width: 3em;
+    width:2em;
+}
+.divplayeroftheweek table{
+    width: 5em;
+    height: 100px;
+}
 /*test*/
 
 /* Footer Css*/
@@ -614,6 +627,652 @@ p a {
     color: white;
 }
 
+/*Media Queries*/
+@media only screen /*phone*/
+  and (min-device-width: 375px) 
+  and (max-device-width: 667px) 
+  and (-webkit-min-device-pixel-ratio: 2) { 
+    .bodystyle{
+        background-color: rgb(66, 61, 61)
+       
+   }
+   
+   /*Header CSS*/
+   head{
+       font: Georgia;
+   }
+   img{
+       float: left;
+       padding-left: 35px ;
+   }
+   .divstylehead{
+       border-radius: 1em;
+        margin-right: 0px;
+         border-style: solid;
+          border-width: 5px;
+           border-color: #1157b9;
+            width: 65em; height: 7em;
+             background-color: rgb(18, 92, 202);
+             font: arial;
+       position: sticky;
+       top:0
+   }
+   header{
+       position: relative;
+   }
+   
+   nav ul{
+       list-style: none;
+       float: right;
+       padding-right: 5em;
+       
+       
+       
+   }
+   nav li{
+       display: inline-block;
+       margin-right: 15px;
+       padding: 30px 10px;
+       
+       
+   }
+   
+   nav a{
+       text-decoration: none;
+       color: white;
+       font-size: 20px;
+       
+   }
+   nav a:hover{
+       color: grey;
+   }
+   
+   /* Body CSS & home css*/
+   .divstylebody{
+       width: 45em;
+       height: 100em;
+       background: linear-gradient(white, white );
+       margin-top: 2em;
+       margin-left: 10em;
+       margin-right: 10em;
+       border-style: solid;
+       border-width: 10px;
+       border-color: rgb(235, 126, 217);
+       border-radius: 12px;
+   }
+   .mediaheader{
+       font-size: x-large;
+       font-family: Arial, Helvetica, sans-serif;
+       padding-top: 1em;
+       text-align: center;
+   
+   }
+   .mediaiframe{
+       padding-top: 3em;
+       padding-left: 3.6em;
+   
+   }
+   .pwhaleleaguebanner{
+       padding-left: 5px;
+   }
+   .whales1div{
+       width: 45em;
+       height: 20em;
+       background-color: darkgrey;
+       margin-left: 20em;
+   }
+   /* About Css */
+   .divstylebodyabout{
+       width: 75em;
+       height: 35em;
+       background-color: rgb(255, 250, 250);
+       margin-top: 1em;
+       margin-left: 20em;
+       margin-right: 10em;
+       border-width: 10px;
+       border-style: solid;
+       border-radius: 50px;
+       border-color: rgb(18, 92, 202);
+      
+   }
+   .divstylebodyabout2{
+       width: 75em;
+       height: 35em;
+       background-color: rgba(255, 255, 255, 0.822);
+       margin-top: 1em;
+       margin-left: 20em;
+       margin-right: 10em;
+       border-width: 10px;
+       border-style: solid;
+       border-radius: 50px;
+       border-color: rgb(18, 92, 202);
+   }
+   .h2about{
+       color: black;
+       font-size: 3em;
+       font-family: Arial, Helvetica, sans-serif;
+       padding-left: 1em;
+       padding-top: 1em;
+   }
+   .pabout{
+       color: cornflowerblue;
+       font-size: 28px;
+       text-align: left;
+       font: sans-serif;
+   }
+   .prules{
+       text-align: left;
+       font-size: 28px;
+       font: sans-serif;
+       padding-left: 1em;
+   }
+   .asignup{
+       text-align: center;
+       font-size: 28px;
+       color: lightblue;
+       text-decoration: none;
+       font-family: Arial, Helvetica, sans-serif;
+   
+   }
+   p a {
+       text-align: center;
+       font-size: 28px;
+       color: rgb(0, 0, 0);
+       text-decoration: none;
+   }
+   /* Teams CSS */
+   .divteamsol{
+       width: 75em;
+       height: 100em;
+       background-color: rgba(54, 50, 50, 0);
+       margin-top: 1em;
+       margin-left: 20em;
+       margin-right: 10em;
+       
+   } 
+   .divteamtemp{
+       
+       display: grid;
+       grid-template-columns: 100%;
+       grid-auto-rows: 15em 15em;
+       grid-gap: 1em;
+       
+       
+   }
+   .divteamnest img{
+       float: left;
+       margin-left: 0px;
+       height: 50px;
+       width: 50px;
+       padding-right: 1em;
+       
+   }
+   .divteamtemp > div{
+       background: rgba(69, 81, 95, 0.87);
+       padding: 1em;
+   }
+   /*.divteamtemp > div:nth-child(odd){
+       background: #ddd;
+   
+   } */
+   .divteamnest{
+       display: grid;
+       
+       grid-template-rows: 1fr;
+       grid-auto-rows: 8em 7em;
+       
+   }
+   .divteamnest > div{
+       background:rgb(45, 56, 68);
+   }
+   .divteamnest p{
+       text-align: left;
+       font-size: 20px;
+       font-family: Arial, Helvetica, sans-serif;
+       color: rgba(158, 157, 145, 0.425);
+       
+   }
+   .teamnames{
+       text-align: left;
+       font-family: 'Courier New', Courier, monospace;
+       color: white;
+       padding-left: 40px;
+   }
+   .anchorwhaleesports{
+       text-decoration: none;
+   }
+   /* Team respect page CSS*/
+   .divteamtamp{
+       display: grid;
+       grid-template-columns: 100%;
+       grid-auto-rows: 15em 15em;
+       grid-gap: 1em;
+   }
+   .divteamsul{
+       width: 75em;
+       height: 100em;
+       background-color: rgb(54, 50, 50);
+       margin-top: 1em;
+       margin-left: 20em;
+       margin-right: 10em;
+       border-style: solid;
+       border-width: 15px;
+       border-radius: 25px;
+       border-color: #1157b9;
+   }
+   .preinfo{
+       color: white;
+       font-size: x-large;
+       padding-left: 4em;
+       font-family: Georgia, 'Times New Roman', Times, serif;
+   }
+   
+   /* upcoming CSS */
+   .pupcoming{
+       text-align: center;
+       color: black;
+       font-size: xx-large;
+       font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+       padding-top: 15px;
+   }
+   /* index table css*/
+   .ptableheaderteams{
+       padding-left: 0px;
+       font-family: Arial, Helvetica, sans-serif;
+       color: white;
+       text-align: center;
+   }
+   .pteamlogostable{
+       font-family: arial;
+       color: white;
+       
+   }
+   .tableheader{
+       background-color: rgb(36, 34, 34);
+       border-color: black;
+   }
+   .ptablep{
+       padding-left: 0px;
+       color: lightgrey;
+       text-align: center;
+   }
+   .divtablepoolplay{
+       background-color: #1157b9;
+       padding-left: 10em;
+       border-radius: 25px;
+   }
+   .tablepool{
+       height: 300px;
+       width: 400px;
+       border-style: solid; 
+       border: 2px;
+       border-color: black;
+   }
+   /* Grid Match page*/
+   .divmatchsol{
+       width: 26em;
+       height: 5em;
+       background-color: rgb(54, 50, 50);
+       margin-top: 3em;
+       margin-left: 135px;
+   }
+   .pmatchvs{
+       font-family: sans-serif;
+       color: white;
+       font-size: 12px;
+       text-align: center;
+   }
+   .tablematchtemp{
+       margin-left: 26.5em;
+       border-style: solid;
+       border-color: black;
+       border-collapse: collapse;
+   }
+   .theadmatch{
+       background-color: rgb(56, 97, 172);
+       border-color: black;
+       border-collapse: collapse;
+       
+   }
+   .buttonmatch{
+       background-color: black;
+       color: white;
+       max-height: 20px;
+       width: 175px;
+   }
+   .buttonmatch2{
+       background-color: black;
+       color: white;
+       max-height: 20px;
+       width: 170px;
+   }
+   /* match template */
+   .divmatchtemplate{
+       width: 75em;
+       height: 100em;
+       background-color: rgb(255, 254, 254);
+       margin-top: 1em;
+       margin-left: 20em;
+       margin-right: 10em;
+       border-style: solid;
+       border-width: 10px;
+       border-color: rgb(59, 59, 63);
+       border-radius: 16px;
+   }
+   .divmatchheader{
+       width: 22.8em;
+       height: 10em;
+       background-color: rgb(54, 52, 52);
+       margin-left: 25.8em;
+       border-radius: 20px;
+   }
+   .divmatchheader img{
+       padding-top: 2.5em;
+   }
+   .divmatchteamtitle{
+       color: white;
+       font-size: 15px;
+       text-align: left;
+       
+   }
+   .divtablepostmatch{
+       margin-left: 26.5em;
+       border-style: solid;
+       border-color: black;
+       border-collapse: collapse;
+       background-color: rgb(51, 47, 47);
+   }
+   .matchmapimage{
+       height: 50px;
+       width: 25.8em;
+       max-width: 25.8em;
+       max-height: 50px;
+       background-size: cover;
+       column-span: 2;
+   }
+   .pmatchmaptitle{
+       color: white;
+       text-align: center;
+       font-size: 20px;
+       padding-top: 1em;
+   }
+   .matchmapsubheader{
+       height: 60px;
+       width: 25.8em;
+       max-width: 25.8em;
+       max-height: 60px;
+   }
+   .mappointswin{
+       color:rgb(255, 255, 255);
+       font-size: 12px;
+   }
+   
+   .matchmappointheader{
+       height: 10px;
+       width: 25.8em;
+       max-width: 25.8em;
+       max-height: 10px;
+   }
+   .divmatchpagestats{
+       width: 50em;
+       height: 25em;
+       background-color: rgb(54, 52, 52);
+       margin-left: 12.5em;
+       border-radius: 20px;
+   }
+   .divplayoftheweek{
+       width: 42.5em;
+       height: 25.5em;
+       background-color: #1157b9;
+       margin-left: 1em;
+       border-radius: 20px;
+   }
+   /* Tournament bracket*/
+   .divtourney{
+       background-color: rgb(255, 251, 251);
+       width: 25em;
+       height: 10em;
+       display: block;
+       margin-left: 13em;
+       background-image: url(./pageimages/Capture.JPG);
+   }
+   .tablebracket{
+       max-width: 20px;
+       max-height: 20px;
+       height: 20px;
+       width: 20px;
+       border-collapse: collapse;
+       
+       background-color: rgb(35, 45, 56);
+       border-color: rgb(255, 255, 255);
+       
+   }
+   .tablefontsizetourney{
+       font-size: 16px;
+       color: white;
+   }
+   .upperbracketheader{
+       width: 30em;
+       height: 3em;
+       margin-left: 7.5em;
+       background-color: #1157b9;
+       border-radius: 25px;
+   }
+   .upperbracketfont{
+       font-size: 20px;
+       color: white;
+       text-align: center;
+       font-family: sans-serif;
+       padding-top: 0.5em;
+   }
+   .divtourneylower{
+       background-color: rgb(255, 251, 251);
+       width: 25em;
+       height: 10em;
+       display: block;
+       margin-left: 13em;
+       background-image: url(./pageimages/capture2.jpg);
+       
+   }
+   /* Player Pages*/
+   /* Player header & Image (pfp) */
+   .divplayerheader{
+       background-color: rgb(255, 255, 255);
+       width: 14em;
+       height: 20em;
+       margin-left: 26em;
+       border-style: solid;
+       border-color: #3f4e64;
+       border-radius: 40px;
+       border-width: 10px;
+       display: inline-block;
+       margin-top: 1em;
+   }
+   .imgplayerheader{
+       width: 130px;
+       height: 110px;
+       border-style: solid;
+       border-radius: 25px;
+       border-width: 10px;
+       margin-top: 1em;
+       margin-left: 2em;
+       display: inline-block;
+       background-size:cover;
+   }
+   .headerplayer{
+       font-size: 25px;
+       /*individual adjustments per name*/
+       font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+       text-align: center;
+       padding-right: 5px;
+   }
+   .teamtextplayer{
+       font-size: 20px;
+       float: right;
+       padding-left: 1em;
+       
+       font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   }
+   
+   .divtextplayer{
+       width: 20px;
+       height: 170px;
+       border-style: solid;
+       border-radius: 25px;
+       border-width: 1px;
+       margin-left: 20em;
+       
+   
+       
+   }
+   /*Stats player page*/
+   .divplayerstats{
+       background-color: white;
+       width: 45em;
+       height: 20em;
+       float: right;
+       margin-right: 30em;
+       border-style: solid;
+       border-color: #3f4e64;
+       border-radius: 40px;
+       border-width: 10px;
+       display: inline-block;
+       margin-top: 1em;
+   }
+   .divplayerstats #tableteam{
+       margin-left: 3em;
+       margin-top: 1em;
+       
+   }
+   
+   .divplayerteammates{
+       background-color: white;
+       width: 60.7em;
+       height: 20em;
+       margin-top: 1em;
+       border-style: solid;
+       border-color: #3f4e64;
+       border-radius: 40px;
+       border-width: 10px;
+       margin-left: 26em;
+   }
+   .divteammatesimg{
+       padding-left: 7em;
+       width: 90px;
+       height: 90px;
+   }
+   .teammatesnames{
+       text-decoration: none;
+       color: rgb(60, 63, 73);
+       font-size: large;
+       font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+       font-weight: 500;
+   }
+   .teamnametitleplayerpage{
+       text-align: center;
+       font-size: larger;
+       font-family: Arial, Helvetica, sans-serif;
+       text-decoration: none;
+       color: black;
+   }
+   .agentpickratetitle{
+       font-size: 30px;
+       padding-left: 1em;
+       font-family: sans-serif;
+   }
+   .pickrates{
+       font-size: larger;
+       font-family: sans-serif;
+       font-weight: 700;
+   }
+   .playerteams{
+       text-decoration: none;
+       color: white;
+   }
+   .divcalckd{
+       background-color: white;
+       width: 60.7em;
+       height: 35em;
+       margin-top: 1em;
+       border-style: solid;
+       border-color: #3f4e64;
+       border-radius: 40px;
+       border-width: 10px;
+       margin-left: 26em;
+   }
+   /*player of the week*/
+   .divplayeroftheweek{
+       border-style:solid;
+       border-width: 5px;
+       height: 37em;
+       width: 15em;
+       float: left;
+       margin-top: 1em;
+       margin-left: 2em;
+       border-radius: 16px;
+       background-color: rgba(255, 255, 255, 0.788);
+       display: none;
+   }
+   .playeroftheweektitle{
+       font-size: larger;
+       font-family: Arial, Helvetica, sans-serif;
+       text-align: center;
+       display: none;
+   }
+   .divplayerofweekimg{
+       background-size: cover;
+       border-style: solid;
+       border-width: 2px;
+       width: 9em;
+       height: 9em;
+       margin-left: 2.78em;
+       border-radius: 120px;
+       display: none;
+   }
+   
+   
+   .playerofweekname{
+       text-align: center;
+       text-decoration: none;
+       color: #1157b9;
+       font-size: 25px;
+       font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+       margin-left: 3.3em;
+       display: none;
+       
+   }
+   .playerofweekkdtitle{
+       text-align: center;
+       font-size: 20px;
+       color: black;
+       font-family: Arial, Helvetica, sans-serif;
+       display: none;
+   }
+   /*ranking table*/
+   .divplayeroftheweek thead{
+       max-width: 3em;
+       width:2em;
+   }
+   .divplayeroftheweek table{
+       width: 5em;
+       height: 100px;
+   }
+   /*test*/
+   
+   /* Footer Css*/
+   .footstyle{
+       text-align: center;
+       color: white;
+   }
+   #footer{
+       width: 65em;
+   }
+}
+@media screen 
+  and (min-device-width: 1200px) 
+  and (max-device-width: 1600px) 
+  and (-webkit-min-device-pixel-ratio: 1) { 
+}
 
 
 

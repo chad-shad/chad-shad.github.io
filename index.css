@@ -748,11 +748,11 @@ p a {
    }
    /* About Css */
    .divstylebodyabout{
-       width: 75em;
+       width: 65em;
        height: 35em;
        background-color: rgb(255, 250, 250);
        margin-top: 1em;
-       margin-left: 20em;
+       margin-left: 0.1em;
        margin-right: 10em;
        border-width: 10px;
        border-style: solid;
@@ -761,11 +761,11 @@ p a {
       
    }
    .divstylebodyabout2{
-       width: 75em;
+       width: 65em;
        height: 35em;
        background-color: rgba(255, 255, 255, 0.822);
        margin-top: 1em;
-       margin-left: 20em;
+       margin-left: 0.1em;
        margin-right: 10em;
        border-width: 10px;
        border-style: solid;
@@ -807,11 +807,11 @@ p a {
    }
    /* Teams CSS */
    .divteamsol{
-       width: 75em;
+       width: 65em;
        height: 100em;
        background-color: rgba(54, 50, 50, 0);
        margin-top: 1em;
-       margin-left: 20em;
+       margin-left: 0.2em;
        margin-right: 10em;
        
    } 
@@ -852,7 +852,7 @@ p a {
    }
    .divteamnest p{
        text-align: left;
-       font-size: 20px;
+       font-size: 15px;
        font-family: Arial, Helvetica, sans-serif;
        color: rgba(158, 157, 145, 0.425);
        
@@ -874,11 +874,11 @@ p a {
        grid-gap: 1em;
    }
    .divteamsul{
-       width: 75em;
+       width: 63em;
        height: 100em;
        background-color: rgb(54, 50, 50);
        margin-top: 1em;
-       margin-left: 20em;
+       margin-left: 0.2em;
        margin-right: 10em;
        border-style: solid;
        border-width: 15px;
@@ -948,7 +948,7 @@ p a {
        text-align: center;
    }
    .tablematchtemp{
-       margin-left: 26.5em;
+       margin-left: 11em;
        border-style: solid;
        border-color: black;
        border-collapse: collapse;
@@ -973,11 +973,11 @@ p a {
    }
    /* match template */
    .divmatchtemplate{
-       width: 75em;
+       width: 62em;
        height: 100em;
        background-color: rgb(255, 254, 254);
        margin-top: 1em;
-       margin-left: 20em;
+       margin-left: 1em;
        margin-right: 10em;
        border-style: solid;
        border-width: 10px;
@@ -988,7 +988,7 @@ p a {
        width: 22.8em;
        height: 10em;
        background-color: rgb(54, 52, 52);
-       margin-left: 25.8em;
+       margin-left: 19.5em;
        border-radius: 20px;
    }
    .divmatchheader img{
@@ -1001,7 +1001,7 @@ p a {
        
    }
    .divtablepostmatch{
-       margin-left: 26.5em;
+       margin-left: 20.3em;
        border-style: solid;
        border-color: black;
        border-collapse: collapse;
@@ -1042,7 +1042,7 @@ p a {
        width: 50em;
        height: 25em;
        background-color: rgb(54, 52, 52);
-       margin-left: 12.5em;
+       margin-left: 5.5em;
        border-radius: 20px;
    }
    .divplayoftheweek{
@@ -1105,7 +1105,7 @@ p a {
        background-color: rgb(255, 255, 255);
        width: 14em;
        height: 20em;
-       margin-left: 26em;
+       margin-left: 1em;
        border-style: solid;
        border-color: #3f4e64;
        border-radius: 40px;
@@ -1156,7 +1156,7 @@ p a {
        width: 45em;
        height: 20em;
        float: right;
-       margin-right: 30em;
+       margin-right: 55em;
        border-style: solid;
        border-color: #3f4e64;
        border-radius: 40px;
@@ -1179,12 +1179,12 @@ p a {
        border-color: #3f4e64;
        border-radius: 40px;
        border-width: 10px;
-       margin-left: 26em;
+       margin-left: 1em;
    }
    .divteammatesimg{
        padding-left: 7em;
-       width: 90px;
-       height: 90px;
+       width: 70px;
+       height: 70px;
    }
    .teammatesnames{
        text-decoration: none;

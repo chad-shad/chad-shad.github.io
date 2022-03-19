@@ -570,7 +570,7 @@ p a {
 .divplayeroftheweek{
     border-style:solid;
     border-width: 5px;
-    height: 37em;
+    height: 20em;
     width: 15em;
     float: left;
     margin-top: 1em;
@@ -626,6 +626,31 @@ p a {
     text-align: center;
     color: white;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*Media Queries*/
 @media only screen /*phone*/
@@ -1204,7 +1229,7 @@ p a {
    .divplayeroftheweek{
        border-style:solid;
        border-width: 5px;
-       height: 37em;
+       height: 25em;
        width: 15em;
        float: left;
        margin-top: 1em;

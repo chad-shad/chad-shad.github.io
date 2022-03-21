@@ -1738,12 +1738,12 @@ p a {
        background-image: url(./pageimages/Capture.JPG);
    }
    .tablebracket{
-       max-width: 20px;
-       max-height: 20px;
+       max-width: 25px;
+       max-height: 25px;
        height: 20px;
        width: 20px;
        border-collapse: collapse;
-       
+       table-layout: fixed;
        background-color: rgb(35, 45, 56);
        border-color: rgb(255, 255, 255);
        
@@ -1751,6 +1751,7 @@ p a {
    .tablefontsizetourney{
        font-size: 16px;
        color: white;
+       text-decoration: none;
    }
    .upperbracketheader{
        width: 30em;
@@ -1775,13 +1776,14 @@ p a {
        background-image: url(./pageimages/capture2.jpg);
        
    }
+   
    /* Player Pages*/
    /* Player header & Image (pfp) */
    .divplayerheader{
        background-color: rgb(255, 255, 255);
        width: 14em;
        height: 20em;
-      
+     
        border-style: solid;
        border-color: #3f4e64;
        border-radius: 40px;
@@ -1859,6 +1861,7 @@ p a {
        border-radius: 40px;
        border-width: 10px;
        margin-left: 26em;
+       
    }
    .divteammatesimg{
        padding-left: 7em;

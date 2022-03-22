@@ -1,5 +1,5 @@
 .bodystyle{
-     background-color: rgb(66, 61, 61)
+     background-color: rgb(27, 26, 26)
     
 }
 
@@ -583,13 +583,13 @@ p a {
 .divplayeroftheweek{
     border-style:solid;
     border-width: 5px;
-    height: 40em;
-    width: 15em;
+    height: 38em;
+    width: 13em;
     float: left;
     margin-top: 1em;
-    margin-left: 2em;
+    margin-left: 4em;
     border-radius: 16px;
-    background-color: rgba(100, 93, 93, 0.788);
+    background-color: rgba(196, 200, 214, 0.788);
     
 }
 .playeroftheweektitle{
@@ -603,7 +603,7 @@ p a {
     border-width: 2px;
     width: 9em;
     height: 9em;
-    margin-left: 2.78em;
+    margin-left: 1.78em;
     border-radius: 120px;
     
 }
@@ -612,10 +612,10 @@ p a {
 .playerofweekname{
     text-align: center;
     text-decoration: none;
-    color: #1157b9;
+    color: #276ed1;
     font-size: 25px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    margin-left: 3.3em;
+    margin-left: 2.7em;
     
 }
 .playerofweekkdtitle{
@@ -632,7 +632,7 @@ p a {
     row-gap: 3px;
     background-color: #3f4e64;
     width: 160px;
-    margin-left: 2.2em;
+    margin-left: 1.5em;
     
     
 }
@@ -657,6 +657,9 @@ p a {
     background-color: #687381;
 } 
 .lastupdated{
+    background-color: #697f9c;
+}
+.lastupdated:hover{
     background-color: #697f9c;
 }
 /*test*/

@@ -589,7 +589,7 @@ p a {
     margin-top: 1em;
     margin-left: 2em;
     border-radius: 16px;
-    background-color: rgba(255, 255, 255, 0.788);
+    background-color: rgba(100, 93, 93, 0.788);
     
 }
 .playeroftheweektitle{
@@ -633,6 +633,7 @@ p a {
     background-color: #3f4e64;
     width: 160px;
     margin-left: 2.2em;
+    
     
 }
 .teamranktest{

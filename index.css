@@ -583,7 +583,7 @@ p a {
 .divplayeroftheweek{
     border-style:solid;
     border-width: 5px;
-    height: 20em;
+    height: 40em;
     width: 15em;
     float: left;
     margin-top: 1em;
@@ -625,13 +625,38 @@ p a {
     font-family: Arial, Helvetica, sans-serif;
 }
 /*ranking table*/
-.divplayeroftheweek thead{
-    max-width: 3em;
-    width:2em;
+.container-teamrankings{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    row-gap: 3px;
+    background-color: #3f4e64;
+    width: 160px;
+    margin-left: 2.2em;
+    
 }
-.divplayeroftheweek table{
-    width: 5em;
-    height: 100px;
+.teamranktest{
+    border-style: solid;
+    border-width: 2px;
+    border-color: red;
+    height: 2em;
+    
+}
+.teamranktest2{
+    border-style: solid;
+    border-width: 2px;
+    border-color: rgb(106, 106, 119);
+    border-top: 2px;
+    border-right: 2px;
+    border-left: 2px;
+    height: 2em;
+    width: 160px;
+}
+.teamranktest2:hover{
+    background-color: #687381;
+} 
+.lastupdated{
+    background-color: #697f9c;
 }
 /*test*/
 

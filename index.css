@@ -1,23 +1,28 @@
-.bodystyle{
-     background-color: rgb(27, 26, 26)
-    
-}
 
 /*Header CSS*/
 head{
     font: Georgia;
 }
+/* Omegalol*/
 img{
     float: left;
+    padding-left: 45px;
+    
+}
+.divstylehead img{
+    float: left;
     padding-left: 45px ;
+    height: 100px;
 }
 .divstylehead{
-    border-radius: 1em;
-     margin-right: 5px;
+    
+    margin-top: -10px;
+     margin-right: -10px;
+     margin-left: -10px;
      border-style: solid;
      border-width: 5px;
      border-color: #1157b9;
-     width: 99%; height: 7em;
+     width: 100%; height: 6em;
     background-color: rgb(18, 92, 202);
      font: arial;
     position: sticky;
@@ -33,15 +38,12 @@ nav ul{
     list-style: none;
     float: right;
     padding-right: 10em;
-    
-    
-    
+ 
 }
 nav li{
     display: inline-block;
     margin-right: 50px;
     padding: 20px 10px;
-    
     
 }
 
@@ -652,6 +654,12 @@ p a {
     border-left: 2px;
     height: 2em;
     width: 160px;
+}
+.teamranktest2 img{
+    height: 17px;
+    width: 17px;
+    padding-left: 0px;
+    float: none;
 }
 .teamranktest2:hover{
     background-color: #687381;

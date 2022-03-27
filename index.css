@@ -616,7 +616,7 @@ p a {
     text-decoration: none;
     color: #276ed1;
     font-size: 25px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family:'Times New Roman', Times, serif;
     margin-left: 2.2em;
     
 }
@@ -672,6 +672,24 @@ p a {
     background-color: #697f9c;
 }
 /*test*/
+::-webkit-scrollbar {
+    width: 8px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #ffffff00;
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: rgb(60, 110, 202); 
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: rgb(63, 92, 190); 
+  }
 
 /* Footer Css*/
 .footstyle{

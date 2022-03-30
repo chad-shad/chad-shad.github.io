@@ -603,15 +603,15 @@ p a {
 /*player of the week*/
 .divplayeroftheweek{
     border-style:solid;
-    border-width: 5px;
+    border-width: 3px;
     height: 38em;
     width: 13em;
     float: left;
     margin-top: 1em;
     margin-left: 4em;
-    border-radius: 16px;
-    background-color: rgba(196, 200, 214, 0.788);
-    
+    border-radius: 8px;
+    background-color: rgba(255, 255, 255, 0.781);
+    box-shadow: 0 5px 20px 0 rgb(0 0 0 / 3%);
 }
 .playeroftheweektitle{
     font-size: larger;
@@ -636,7 +636,7 @@ p a {
     color: #276ed1;
     font-size: 25px;
     font-family:'Times New Roman', Times, serif;
-    margin-left: 2.2em;
+    margin-left: 2em;
     
 }
 .playerofweekkdtitle{
@@ -714,6 +714,36 @@ p a {
 .footstyle{
     text-align: center;
     color: white;
+}
+.footer2{
+    width: 118.5em;
+    height: 15em;
+    background-color:#3f4e64;
+    
+}
+.h4foot{
+    font-size: large;
+    color: rgb(145, 137, 137);
+    padding-top: 1em;
+    padding-left: 1.5em;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.footer2 ul{
+    list-style:none;
+    
+}
+.footer2 li{
+    padding-top: 10px;
+    padding-left: 1em;
+    color: white;
+    display: inline-block;
+}
+.footer2 a{
+    color: white;
+    text-decoration: none;
+}
+.footer2 a:hover{
+    color: gray;
 }
 
 

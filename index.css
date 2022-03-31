@@ -1,4 +1,15 @@
+.divcontent::before{
+margin: 0 0 0 0;
+position: absolute;
+}
+.divcontent{
+position:relative;
+margin-top: -1070px;
+width: 100%;
+height: 110vh;
+background-color: rgba(90, 123, 196, 0.45);
 
+}
 /*Header CSS*/
 head{
     font: Georgia;
@@ -73,6 +84,7 @@ nav a:hover{
     border-color: rgb(235, 126, 217);
     border-radius: 12px;
     box-shadow: 5px 5px 5px rgb(207, 103, 190); 
+    
 }
 .mediaheader{
     font-size: x-large;
@@ -103,6 +115,7 @@ nav a:hover{
     gap: 1em 1em;
     width: 100em;
     margin-left: 7.5em;
+    margin-top: -1070px;
 }
 .divstylebodyabout{
     width: 50em;

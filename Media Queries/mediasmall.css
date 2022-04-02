@@ -18,11 +18,11 @@
    }
    .divstylehead{
        border-radius: 1em;
-        margin-right: 0px;
+        margin-right: -0px;
          border-style: solid;
           border-width: 5px;
            border-color: #1157b9;
-            width: 65em; height: 7em;
+            width: 135vh; height: 7em;
              background-color: rgb(18, 92, 202);
              font: arial;
        position: sticky;
@@ -107,10 +107,10 @@
       
    }
    .divstylebodyabout2{
-       width: 65em;
+       width: 30em;
        height: 35em;
        background-color: rgba(255, 255, 255, 0.822);
-       margin-top: 1em;
+       margin-top: 4em;
        margin-left: 0.1em;
        margin-right: 10em;
        border-width: 10px;
@@ -212,20 +212,33 @@
    .anchorwhaleesports{
        text-decoration: none;
    }
+   .li-about{
+    font-size: 1.3em;
+    padding-bottom: 0.5em;
+    }
+    .container-about{
+        display: grid;
+        grid-template-columns: 1fr 3fr;
+        grid-template-rows: 1fr;
+        gap: 0.2em;
+        width: 100em;
+        margin-left: 7.5em;
+        margin-top: -1070px;
+    }
    /* Team respect page CSS*/
    .divteamtamp{
        display: grid;
        grid-template-columns: 100%;
        grid-auto-rows: 15em 15em;
        grid-gap: 1em;
+       margin-left: 20em;
    }
    .divteamsul{
        width: 63em;
        height: 100em;
        background-color: rgb(54, 50, 50);
        margin-top: 1em;
-       margin-left: 0.2em;
-       margin-right: 10em;
+       
        border-style: solid;
        border-width: 15px;
        border-radius: 25px;
@@ -641,6 +654,131 @@
        color: white;
    }
    #footer{
-       width: 65em;
+       width: 135vh;
    }
+
+   /* New home*/
+
+.newhomesection1{
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    border-style: solid;
+    border-width: 1px;
+    border-color:white;
+    border-radius: 16px;
+    height: 32em;
+    flex: 1;
 }
+.newhomesection1 img{
+    width: 20em;
+}
+.newhomesection3{
+    width: 100%;
+    background-color:#7b8797;
+    border-style: solid;
+    border-width: 1px;
+    border-color:#1157b9;
+    border-radius: 16px;
+    height: 20em;
+    flex:1;
+    
+    
+}
+
+
+.newhome-container{
+    display: flex;
+    grid-gap: 10px;
+}
+.whalebanner{
+    width: 33.2%;
+    margin-left: 1em;
+    height: 8em;
+    background-image: url(./pageimages/whaleleagueseason1banner.jpg);
+}
+
+.h2-newhome{
+    font-size: 35px;
+    color: #1157b9;
+    padding-left: 1em;
+    padding-top: 0.5em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.pnewhome{
+    margin-left: 2em;
+    margin-top: 2em;
+}
+.pnewhomeunder{
+    font-size: medium; 
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #1157b9;
+    padding-left: 0.6em;
+    text-align: center;
+}
+.pnewhomeunder2{
+    font-size: medium; 
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #000000;
+    margin-left: 2em;
+    margin-top: 1em;
+    text-align: left;
+}
+
+video{
+    display: none;
+}
+
+.divcontent::before{
+    margin: 0 0 0 0;
+    position: absolute;
+    }
+    .divcontent{
+    position:relative;
+    margin-top: 1em;
+    width: 80em;
+    height: 110vh;
+    background-color: rgba(90, 124, 196, 0.301);
+    
+    }
+    .h1whaleleague{
+        font-size: 60px;
+        color: white;
+        padding-top: 3em;
+        padding-left: 1em;
+    }
+    .pwhaleleague{
+        color: white;
+        font-size: 20px;
+        padding-left: 4em;
+        
+    }
+    .buttonwhale{
+        width: 9.5em;
+        height: 3.3em;
+        margin-left: 7em;
+        margin-top: 10em;
+        background-color: #1157b9;
+        border-style: none;
+        border-radius: 10px;
+        color: white;
+        box-shadow: 1px 1px 1px rgba(rgba(22, 22, 22, 0.089));
+    }
+    .buttonwhale:hover{
+        background-color: #ffffff;
+        cursor:pointer;
+        color:#1157b9;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+}
+

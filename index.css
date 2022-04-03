@@ -855,6 +855,16 @@ p a {
     margin-top: 1em;
     text-align: left;
 }
-
+.pnewhomeunder3{
+    font-size: medium; 
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #000000;
+    margin-left: 15em;
+    margin-top: 1em;
+    text-align: left;
+}
+.preinfo img{
+    float: none;
+}
 
 

@@ -213,7 +213,7 @@ p a {
 .divteamsol{
     width: 75em;
     height: 100em;
-    background-color: rgba(54, 50, 50, 0);
+    background-color: rgb(247, 247, 247);
     margin-top: 1em;
     margin-left: 20em;
     margin-right: 10em;
@@ -225,6 +225,7 @@ p a {
     grid-template-columns: 100%;
     grid-auto-rows: 15em 15em;
     grid-gap: 1em;
+    
     
     
 }
@@ -648,12 +649,12 @@ p a {
 /*player of the week*/
 .divplayeroftheweek{
     border-style:solid;
-    border-width: 3px;
+    border-width: 0px;
     height: 38em;
     width: 13em;
     float: left;
     margin-top: 1em;
-    margin-left: 4em;
+    margin-left: 2em;
     border-radius: 8px;
     background-color: rgba(255, 255, 255, 0.781);
     box-shadow: 0 5px 20px 0 rgb(0 0 0 / 3%);
@@ -866,5 +867,4 @@ p a {
 .preinfo img{
     float: none;
 }
-
 

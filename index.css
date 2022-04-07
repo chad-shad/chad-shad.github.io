@@ -2,6 +2,9 @@
 margin: 0 0 0 0;
 position: absolute;
 }
+.body{
+    margin: 0;
+}
 .divcontent{
 position:relative;
 margin-top: -1110px;
@@ -213,7 +216,7 @@ p a {
 .divteamsol{
     width: 75em;
     height: 100em;
-    background-color: rgb(58, 55, 55);
+    background-color: #222;
     border-color: #1157b9;
     border-style: solid;
     border-width: 6px;

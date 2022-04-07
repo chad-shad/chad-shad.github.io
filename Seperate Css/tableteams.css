@@ -1,0 +1,103 @@
+/* Table sections*/
+.theadmatch img{
+  padding-left: 30px;
+  padding-right: 30px;
+    margin: 0;
+    margin-bottom: 6px;
+ user-select: none;
+}
+.theadmatch pre{
+    padding-left: 10px;
+    user-select: none;
+}
+
+.tbody img{
+    padding: 0;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 5px;
+    user-select: none;
+}
+.tbody a{
+    padding:0;
+    color: white;
+    text-decoration: none;
+    user-select: none;
+}
+.theadmatch{
+    border-collapse: collapse;
+    border: none;
+    background-color: #232d38cc;
+    
+}
+.theadmatch:hover{
+    background-color: rgb(68, 67, 67);
+}
+.theadmatch pre{
+    color: white;
+    padding-left: 10px;
+    font-size: 16px;
+}
+table{
+    border:none
+}
+/*Player Names under table */
+.Player-Names a{
+ text-decoration: none;
+ color: white;
+ font-size: 18px;
+ margin-left: 3px;
+
+}
+.Player-Names a:hover{
+    color: rgb(143, 140, 140);
+}
+/* table bg*/
+.tablematchtemp{
+    margin-left: 18.3em;
+    border:none;
+    background-color: rgb(77, 74, 74);
+   width: 627px;
+    
+}
+.tbody{
+    background-color: rgb(45, 56, 68);
+}
+/* Buttons */
+.button-Team-Profile{
+    background-color: rgb(45, 56, 68);
+    color: white;
+    max-height: 20px;
+    width: 50%;
+    height: 50px;
+    border-color: grey;
+    border-style: solid;
+    border-width: 1.5px;
+    height: 50px;
+    border-bottom: 3px;
+    border-left: 3px;
+    border-right: 3px;
+}
+.button-Team-Profile2{
+    background-color: rgb(45, 56, 68);
+    color: white;
+    max-height: 20px;
+    width: 50%;
+    border-color: grey;
+    border-style: solid;
+    border-width: 1.5px;
+    height: 50px;
+    border-bottom: 3px;
+    border-left: 3px;
+    border-right: 3px;
+}
+.button-Team-Profile:hover{
+background-color: rgb(68, 66, 66);
+color: rgb(73, 111, 192);
+cursor: pointer;
+}
+.button-Team-Profile2:hover{
+background-color: rgb(68, 66, 66);
+color: rgb(73, 111, 192);
+cursor: pointer;
+}

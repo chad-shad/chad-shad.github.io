@@ -45,8 +45,9 @@ table{
 .Player-Names a{
  text-decoration: none;
  color: white;
- font-size: 18px;
+ font-size: 17px;
  margin-left: 3px;
+ font-family: Helvetica, sans-serif;
 
 }
 .Player-Names a:hover{
@@ -62,6 +63,11 @@ table{
 }
 .tbody{
     background-color: rgb(45, 56, 68);
+   /* border-style: solid;
+    border-width: 0.5px;
+    border-left: 3px;
+    border-right: 3px;
+    border-color: grey; */
 }
 /* Buttons */
 .button-Team-Profile{
@@ -77,6 +83,7 @@ table{
     border-bottom: 3px;
     border-left: 3px;
     border-right: 3px;
+    
 }
 .button-Team-Profile2{
     background-color: rgb(45, 56, 68);
@@ -90,6 +97,7 @@ table{
     border-bottom: 3px;
     border-left: 3px;
     border-right: 3px;
+    
 }
 .button-Team-Profile:hover{
 background-color: rgb(68, 66, 66);

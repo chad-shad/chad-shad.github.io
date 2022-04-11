@@ -39,6 +39,37 @@ table{
     display: none;
     border-radius: 0 0 16px 16px;
 }
+/*----------------
+---Achievements---
+----------------*/
+
+.achievement{
+    margin-left: 20em;
+}
+.achievement img{
+    padding: 0;
+    float: none;
+}
+.pplacementevent{
+    font-size: large;
+    color: white;
+    text-align: center;
+    padding-left: 3px;
+}
+.btnplacement{
+    background-color: rgb(92, 88, 88);
+    color: white;
+    border: none;
+    width: 8em;
+}
+.aevent{
+    color: white;
+    font-family: Helvetica, sans-serif;
+    text-decoration: none;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
 /*--Buttons--*/
 .bg-buttons{
     background-color: rgb(56, 56, 56);

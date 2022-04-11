@@ -6,7 +6,8 @@
 .Team-Roster{
     width: 100%;
     height: 15em;
-    background-color: rgb(51, 50, 50);
+    background-color: rgb(32, 30, 30);
+    
 }
 .ML{
     margin-left: 10em;
@@ -145,8 +146,8 @@ table{
 .roster-image:hover{
     height: 150px;
     width: 150px;
-    margin-right: 0.5em;
-    
+    margin-right: 0.1em;
+    margin-left: -0.8em;
 }
 /* ------ */
 
@@ -159,6 +160,9 @@ table{
     color: white;
     padding-left: 12px;
     
+}
+.APlayer-names:hover{
+    color: grey;
 }
 .Flags{
     margin: 0;

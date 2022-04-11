@@ -1,0 +1,174 @@
+.new-team-container{
+    width: 75em;
+    margin-top: 1em;
+    margin-left: 20em;
+}
+.Team-Roster{
+    width: 100%;
+    height: 15em;
+    background-color: rgb(32, 30, 30);
+    
+}
+.ML{
+    margin-left: 10em;
+  
+    
+}
+.Team-Body{
+    background-color: rgb(32, 30, 30);
+    height: 45em;
+    width: 100%;
+   
+}
+table{
+    border-style: none;
+    border-collapse: collapse;
+    
+}
+#infodiv{
+    width: 100%;
+    height: 35em;
+    background-color: rgb(87, 82, 82);
+    margin-top: -1em;
+    border-radius: 0 0 16px 16px;
+}
+#avdiv{
+    width: 100%;
+    height: 35em;
+    background-color: rgb(87, 82, 82);
+    display: none;
+    border-radius: 0 0 16px 16px;
+}
+/*--Buttons--*/
+.bg-buttons{
+    background-color: rgb(56, 56, 56);
+    width: 100%;
+    height: 2em;
+}
+.button-info{
+    height: 2em;
+    font-family: monospace;
+    width: 33%;
+    border:none;
+    background-color: rgb(55, 55, 55);
+    color: rgb(200, 200, 200);
+    border-radius: 16px;
+}
+.button-Achievements{
+    height: 2em;
+    width: 33%;
+    border:none;
+    background-color: rgb(55, 55, 55);
+    color: rgb(200, 200, 200);
+    border-radius: 16px;
+    font-family: monospace;
+}
+.button-match-history{
+    height: 2em;
+    width: 33%;
+    border:none;
+    background-color: rgb(55, 55, 55);
+    color: rgb(200, 200, 200);
+    border-radius: 16px;
+    font-family:monospace;
+}
+.button-info:hover{
+    background-color: rgb(75, 71, 71);
+    color: rgb(97, 135, 196);
+    cursor: pointer;
+}
+.button-Achievements:hover{
+    background-color: rgb(75, 71, 71);
+    color: rgb(97, 135, 196);
+    cursor: pointer;
+}
+.button-match-history:hover{
+    background-color: rgb(75, 71, 71);
+    color: rgb(97, 135, 196);
+    cursor: pointer;
+}
+/*---*/
+.standins{
+    color: white;
+    font-size: large;
+    float: right;
+    padding-right: 100px;
+}
+.team-infop{
+    color: white;
+    padding-top: 1em;
+    padding-left: 1em;
+    font-size: 1em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/*---------------
+---Team Header---
+---------------*/
+
+.div-Team-Table{
+    width: 80%;
+    background-color: black;
+    height: 8em;
+    margin-left: 8em;
+}
+.Team-Logo{
+    margin: 0;
+    padding: 0;
+    width: 100px;
+    height: 100px;
+    float: left;
+    margin-left: 2em;
+}
+.ATeam-Name{
+    text-decoration: none;
+    font-size: 30px;
+    color: white;
+    padding-left: 30px;
+}
+.Twitter-Logo{
+    text-decoration: none;
+    font-size: 50px;
+    color: rgb(93, 161, 216);
+}
+.Twitter-Logo:hover{
+    color: white;
+}
+/*-----*/
+
+/*-----------------
+---Player Images---
+-----------------*/
+.roster-image{
+    height: 125px;
+    width: 125px;
+    
+}
+.roster-image:hover{
+    height: 150px;
+    width: 150px;
+    margin-right: 0.1em;
+    margin-left: -0.8em;
+}
+/* ------ */
+
+/*-----------------
+---Player Names---
+------------------*/
+.APlayer-names{
+    text-decoration: none;
+    font-size: x-large;
+    color: white;
+    padding-left: 12px;
+    
+}
+.APlayer-names:hover{
+    color: grey;
+}
+.Flags{
+    margin: 0;
+    padding: 0;
+    width: 25px;
+    height: 25px;
+    float: none;
+}
+/* ----- */

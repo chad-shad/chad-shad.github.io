@@ -8,37 +8,37 @@ function TeamClick() {
     }
   }
   function TeamClick2() {
-    var x = document.getElementById("Team2");
-    if (x.style.display === "none") {
-      x.style.display = "block";
+    var y = document.getElementById("Team2");
+    if (y.style.display === "none") {
+      y.style.display = "block";
     } else {
-      x.style.display = "none";
+      y.style.display = "none";
     }
   }
 
   function TeamClick3() {
-    var x = document.getElementById("Team3");
-    if (x.style.display === "none") {
-      x.style.display = "block";
+    var z = document.getElementById("Team3");
+    if (z.style.display === "none") {
+      z.style.display = "block";
     } else {
-      x.style.display = "none";
+      z.style.display = "none";
     }
   }
 
   function TeamClick4() {
-    var x = document.getElementById("Team4");
-    if (x.style.display === "none") {
-      x.style.display = "block";
+    var a = document.getElementById("Team4");
+    if (a.style.display === "none") {
+      a.style.display = "block";
     } else {
-      x.style.display = "none";
+      a.style.display = "none";
     }
   }
 
   function TeamClick5() {
-    var x = document.getElementById("Team5");
-    if (x.style.display === "none") {
-      x.style.display = "block";
+    var b = document.getElementById("Team5");
+    if (b.style.display === "none") {
+      b.style.display = "block";
     } else {
-      x.style.display = "none";
+      b.style.display = "none";
     }
   }

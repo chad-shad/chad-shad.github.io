@@ -34,8 +34,17 @@ function TeamClick() {
     }
   }
 
-  function TeamClick5() {
+  function teamclick5() {
     var b = document.getElementById("Team5");
+    if (b.style.display === "none") {
+      b.style.display = "block";
+    } else {
+      b.style.display = "none";
+    }
+  }
+
+  function teamclick6() {
+    var b = document.getElementById("Team6");
     if (b.style.display === "none") {
       b.style.display = "block";
     } else {
